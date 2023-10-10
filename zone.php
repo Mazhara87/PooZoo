@@ -91,7 +91,7 @@ $tiger = new Animal("Tiger", 200, "Large", "Tony", 5);
               <h4 class="my-0 fw-normal">Aviary</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$0</h1>
+              <h1 class="card-title pricing-card-title"><?php $enclosure3->getAnimalCount(); ?></h1>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>Eagle is the common name for many large birds of prey of the family Accipitridae. Eagles belong to several groups of genera, some of which are closely related. True eagles comprise the genus Aquila. </li>
               </ul>
